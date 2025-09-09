@@ -1,3 +1,4 @@
+// usar em eventos de resize e scroll
 export default function debounce(callback, delay) {
   let timer;
   return function (...args) {
